@@ -1,6 +1,6 @@
-*{
+/* *{
     font-family:  'Brush Script MT', cursive;
-}
+} */
 .bg-clor{
     background-color:#151225;
 }
@@ -33,7 +33,7 @@
     font-family:  'Brush Script MT', cursive;
 }
 .font-sylt{
-    font-family: 'Brush Script MT', cursive;
+    /* font-family: 'Brush Script MT', cursive; */
     font-weight: 600;
     font-size: 19px;
 }
@@ -91,4 +91,7 @@
 .btncolor{
     background-color: rgb(75, 84, 81);
     color: beige ;
+}
+.edu-text{
+    font-size:30px ;
 }
