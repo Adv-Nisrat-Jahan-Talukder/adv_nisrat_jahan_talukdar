@@ -1,84 +1,86 @@
-/* *{
-    font-family:  'Brush Script MT', cursive;
-} */
-.bg-clor{
+*{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.body_colour{
     background-color:#151225;
+    
 }
-.toggol-clr{
-    background-color: rgb(228, 171, 171);
-}
-.slide-font{
-    color: rgb(242, 235, 223);
-}
-.n-title{
+.njt_fonts{
     color: rgb(78, 20, 237);
     font-size: 60px;
     font-weight: 1000;
 }
-.nav-fnt{
+.toggler_colour{
+    background-color: rgb(228, 171, 171);
+}
+.toggler_colour:hover{
+    background-color: rgb(101, 65, 65) ;
+    transition-delay:.3s;
+}
+.nav_fonts{
     color: rgb(209, 233, 233);
     font-size: 20px;
     font-weight: 700;
 }
-/* .nav-height{
-    background-color: rgb(81, 81, 92);
-} */
-/* .carousell-clor{
-  background-image: url(image/slide1.png);
-  background-repeat: no-repeat;
-} */
-.about-me{
+.nav_fonts:hover{
+    color: rgb(17, 232, 232);
+    font-size: 20px;
+    font-weight: 700;
+    transition-delay:.3s;
+}
+.slide-font{
+    color: rgb(150, 148, 145);
+}
+.slide-font:hover{
+    color: rgb(239, 230, 214);
+    transition-delay:.3s;
+}
+.about-me-heading{
     color: rgb(122, 122, 199);
     /* text-decoration: underline; */
-    font-family:  'Brush Script MT', cursive;
+    /* font-family:  'Brush Script MT', cursive; */
 }
-.font-sylt{
+.about-me-heading:hover{
+    color: rgb(53, 53, 234);
+    transition-delay:.3s;
+}
+.about-me-para{
     /* font-family: 'Brush Script MT', cursive; */
     font-weight: 600;
     font-size: 19px;
 }
-.about-pone{
+.about-me-para-one{
     color: rgb(153, 140, 140);
 } 
- .about-adv{
+.about-me-para-one:hover{
+    color: rgb(249, 219, 219);
+    transition-delay:.3s;
+} 
+ .about-me-adv{
     color: rgb(120, 119, 119);
 }
-/* .about-bg{
-    background-image: url(image/footer-bg.png), linear-gradient(rgba(27, 26, 26, 0.5),rgba(28, 26, 26, 0.8));
-} */
-.text-col{
-    color: rgb(246, 235, 235);
+ .about-me-adv:hover{
+    color: rgb(200, 200, 200);
+    transition-delay:.3s;
+}
+.text_colour-uni{
+    color: rgb(196, 191, 191);
+}
+.text_colour-uni:hover{
+    color: rgb(248, 246, 246);
+    transition-delay:.3s;
 }
 .span-textcolor{
-    color: aquamarine;
+    color: rgb(143, 254, 217);
+}
+.span-textcolor:hover{
+    color: rgb(58, 247, 184);
 }
 .edu-font{
     font-size: 18px;
     font-weight: 500;
 }
-/* .edu-bg{
-    background-image: url(image/gradient1.png),linear-gradient(rgba(27, 26, 26, 0.5),rgba(12, 102, 237, 0.8)); 
-    background-repeat: no-repeat;
-    height: auto ;
-} */
-/* .train-bg{
-    background-image: url(image/gradient3.png),linear-gradient(rgba(65, 63, 63, 0.5),rgba(65, 41, 20, 0.8)); 
-    background-repeat: no-repeat;
-    height: auto ;
-} */
-/* .career-bg{
-    background-image: url(image/gradient2.png),linear-gradient(rgba(27, 26, 26, 0.5),rgba(21, 21, 23, 0.8)); 
-    
-    background-repeat: no-repeat;
-    height: auto ;
-} */
-/* .edubanner{
-    background-image: url(image/edubanner1.png),linear-gradient(rgba(27, 26, 26, 0.5),rgba(21, 24, 57, 0.8)); 
-    
-    background-repeat: no-repeat;
-    height: auto ;
-} */
-.foter-syle{
+.footer_style{
     color: rgb(238, 234, 234);
     font-size: 15px;
     font-weight: 500;
@@ -89,9 +91,28 @@
     font-weight: 700;
 }
 .btncolor{
-    background-color: rgb(75, 84, 81);
-    color: beige ;
+    background-color: rgb(66, 90, 82);
+    color: rgb(250, 250, 247) ;
+}
+.btncolor:hover{
+    background-color: rgb(91, 243, 243);
+   
 }
 .edu-text{
-    font-size:30px ;
+    font-size:25px ;
+}
+/* hover effect */
+.visited_factory:hover{
+    color: rgb(247, 175, 5);
+    transition-delay:.3s;
+}
+.visited_factory{
+    color: rgb(191, 147, 43);
+}
+.boxer{
+    transition: 2s;
+}
+.boxer:hover{
+ transform: scale(1.1);
+ z-index: 1;
 }
