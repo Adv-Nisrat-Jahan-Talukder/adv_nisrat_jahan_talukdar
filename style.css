@@ -1,118 +1,195 @@
-*{
+* {
     font-family: 'Josefin Sans', sans-serif;
 }
-.body_colour{
-    background-color:#151225;
-    
+
+.body_colour {
+    background-color: #151225;
+
 }
-.njt_fonts{
+
+:root {
+    --main-color: rgb(148, 207, 211);
+    --sec-color: rgb(200, 28, 28);
+    --submit-color: rgb(0, 106, 255);
+    --hire-color: rgb(255, 89, 0);
+}
+
+.njt_fonts {
     color: rgb(78, 20, 237);
     font-size: 60px;
     font-weight: 1000;
 }
-.toggler_colour{
+
+.hire-me {
+    background-color: rgb(210, 90, 25);
+    color: beige;
+    font-weight: 600;
+    box-shadow: 0 0 1rem var(--hire-color);
+}
+
+.hire-me:hover {
+    background-color: rgb(255, 89, 0);
+    color: beige;
+    box-shadow: none;
+}
+
+.toggler_colour {
     background-color: rgb(228, 171, 171);
 }
-.toggler_colour:hover{
-    background-color: rgb(101, 65, 65) ;
-    transition-delay:.3s;
+
+.toggler_colour:hover {
+    background-color: rgb(101, 65, 65);
+    transition-delay: .3s;
 }
-.nav_fonts{
+
+.nav_fonts {
     color: rgb(209, 233, 233);
     font-size: 20px;
     font-weight: 700;
 }
-.nav_fonts:hover{
+
+.nav_fonts:hover {
     color: rgb(17, 232, 232);
     font-size: 20px;
     font-weight: 700;
-    transition-delay:.3s;
+    transition-delay: .3s;
 }
-.slide-font{
-    color: rgb(150, 148, 145);
+
+.slide-font {
+    color: rgb(162, 160, 159);
 }
-.slide-font:hover{
-    color: rgb(239, 230, 214);
-    transition-delay:.3s;
-}
-.about-me-heading{
+
+.about-me-heading {
     color: rgb(122, 122, 199);
     /* text-decoration: underline; */
     /* font-family:  'Brush Script MT', cursive; */
 }
-.about-me-heading:hover{
+
+.about-me-heading:hover {
     color: rgb(53, 53, 234);
-    transition-delay:.3s;
+    transition-delay: .3s;
 }
-.about-me-para{
+
+.about-me-para {
     /* font-family: 'Brush Script MT', cursive; */
     font-weight: 600;
     font-size: 19px;
 }
-.about-me-para-one{
+
+.about-me-para-one {
     color: rgb(153, 140, 140);
-} 
-.about-me-para-one:hover{
-    color: rgb(249, 219, 219);
-    transition-delay:.3s;
-} 
- .about-me-adv{
+}
+
+.about-me-adv {
     color: rgb(120, 119, 119);
 }
- .about-me-adv:hover{
-    color: rgb(200, 200, 200);
-    transition-delay:.3s;
-}
-.text_colour-uni{
+
+.text_colour-uni {
     color: rgb(196, 191, 191);
 }
-.text_colour-uni:hover{
-    color: rgb(248, 246, 246);
-    transition-delay:.3s;
-}
-.span-textcolor{
+
+
+.span-textcolor {
     color: rgb(143, 254, 217);
 }
-.span-textcolor:hover{
+
+.span-textcolor:hover {
     color: rgb(58, 247, 184);
 }
-.edu-font{
+
+.edu-font {
     font-size: 18px;
     font-weight: 500;
 }
-.footer_style{
+
+.footer_style {
     color: rgb(238, 234, 234);
     font-size: 15px;
     font-weight: 500;
 }
-.copy-wrt{
+
+.copy-wrt {
     color: red;
     font-size: 20px;
     font-weight: 700;
 }
-.btncolor{
-    background-color: rgb(66, 90, 82);
-    color: rgb(250, 250, 247) ;
-}
-.btncolor:hover{
+
+.btncolor {
     background-color: rgb(91, 243, 243);
-   
+    color: rgb(16, 16, 16);
+    box-shadow: 0 0 1rem var(--main-color);
 }
-.edu-text{
-    font-size:25px ;
+
+.btncolor:hover {
+    box-shadow: none;
+    color: aliceblue;
+    background-color: rgb(32, 85, 85);
 }
+
+.edu-text {
+    font-size: 25px;
+}
+
 /* hover effect */
-.visited_factory:hover{
+.visited_factory:hover {
     color: rgb(247, 175, 5);
-    transition-delay:.3s;
+    transition-delay: .3s;
 }
-.visited_factory{
+
+.visited_factory {
     color: rgb(191, 147, 43);
 }
-.boxer{
+
+.cv-btn-color {
+    box-shadow: 0 0 1rem var(--sec-color);
+    background-color: rgb(215, 9, 16);
+    color: azure;
     transition: 2s;
 }
-.boxer:hover{
- transform: scale(1.1);
- z-index: 1;
+
+.cv-btn-color:hover {
+    background-color: rgb(215, 9, 16);
+    color: aliceblue;
+    transform: scale(1.1);
+    z-index: 1;
+    box-shadow: none;
+}
+
+.boxer {
+    transition: 2s;
+}
+
+.boxer:hover {
+    transform: scale(1.1);
+    z-index: .5;
+}
+
+.boxer-submit {
+    box-shadow: 0 0 1rem var(--submit-color);
+    transition: 2s;
+    transform: scale(1.1);
+    z-index: .5;
+}
+
+.boxer-submit:hover {
+    box-shadow: none;
+}
+
+.samit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.up-home-btn {
+    color: rgb(247, 251, 251);
+    background-color: rgb(30, 30, 155);
+    box-shadow: 0 0 1rem blue;
+    font-weight: 600;
+}
+
+.up-home-btn:hover {
+    box-shadow: none;
+    color: rgb(252, 253, 253);
+    background-color: rgb(12, 12, 225);
 }
