@@ -1,7 +1,4 @@
-* {
-    font-family: 'Josefin Sans', sans-serif;
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap');
 .body_colour {
     background-color: #151225;
 
@@ -15,21 +12,21 @@
 }
 
 .njt_fonts {
-    color: rgb(78, 20, 237);
+    color: rgb(17, 232, 232);
     font-size: 60px;
     font-weight: 1000;
 }
 
 .hire-me {
-    background-color: rgb(210, 90, 25);
-    color: beige;
+    background-color: rgb(255, 89, 0);
+    color: rgb(148, 207, 211);
     font-weight: 600;
     box-shadow: 0 0 1rem var(--hire-color);
 }
 
 .hire-me:hover {
-    background-color: rgb(255, 89, 0);
-    color: beige;
+    background-color: rgb(210, 90, 25);
+    color: rgb(17, 232, 232);
     box-shadow: none;
 }
 
@@ -42,13 +39,13 @@
     transition-delay: .3s;
 }
 
-.nav_fonts {
+/* .nav_fonts {
     color: rgb(209, 233, 233);
     font-size: 20px;
     font-weight: 700;
-}
+} */
 
-.nav_fonts:hover {
+.nav_fonts {
     color: rgb(17, 232, 232);
     font-size: 20px;
     font-weight: 700;
@@ -58,16 +55,13 @@
 .slide-font {
     color: rgb(162, 160, 159);
 }
-
+.slide-heading{
+    color: rgb(209, 233, 233);
+}
 .about-me-heading {
-    color: rgb(122, 122, 199);
+    color: rgb(17, 232, 232);
     /* text-decoration: underline; */
     /* font-family:  'Brush Script MT', cursive; */
-}
-
-.about-me-heading:hover {
-    color: rgb(53, 53, 234);
-    transition-delay: .3s;
 }
 
 .about-me-para {
@@ -81,11 +75,13 @@
 }
 
 .about-me-adv {
-    color: rgb(120, 119, 119);
+    color: rgb(153, 140, 140);
 }
 
 .text_colour-uni {
     color: rgb(196, 191, 191);
+    font-weight: 600;
+    font-size: 19px;
 }
 
 
@@ -101,7 +97,11 @@
     font-size: 18px;
     font-weight: 500;
 }
-
+.resume-videotittle{
+    color: rgb(17, 232, 232);
+    font-size: 2rem;
+    font-weight: 630;
+}
 .footer_style {
     color: rgb(238, 234, 234);
     font-size: 15px;
@@ -125,7 +125,9 @@
     color: aliceblue;
     background-color: rgb(32, 85, 85);
 }
-
+.edu-head{
+    color: rgb(27, 122, 246);
+}
 .edu-text {
     font-size: 25px;
 }
@@ -137,9 +139,12 @@
 }
 
 .visited_factory {
-    color: rgb(191, 147, 43);
+    color: rgb(17, 232, 232);
 }
-
+.hire-meheading{
+    color: rgb(17, 232, 232); 
+    font-weight: 600;
+}
 .cv-btn-color {
     box-shadow: 0 0 1rem var(--sec-color);
     background-color: rgb(215, 9, 16);
@@ -192,4 +197,7 @@
     box-shadow: none;
     color: rgb(252, 253, 253);
     background-color: rgb(12, 12, 225);
+}
+.footer-colore{
+    background-color: #0e0d18;
 }
